@@ -33,6 +33,7 @@ Ricerca per ID
     document.getElementById("nome ID")
 ```
 
+
 Ricerca per selettore
 ```
     document.querySelector("nome selettore")
@@ -63,3 +64,14 @@ Ricerca per nome del tag
 > Nota bene: 
 > questi metodi restituiscono degli array
 
+## setTimeout
+
+esegue la funzione dopo un determinato periodo di tempo
+
+`setTimeout(funzione, tempo [in millisecondi], parametri funzione);`
+
+esempio:
+
+```
+    setTimeout(console.log("10"), 5000)
+```
