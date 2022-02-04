@@ -26,13 +26,13 @@ stampa in una tabella in console le celle di un array e il relativo contenuto:
 ```
     console.table(nome_array)
 ```
+
 ## Ricerca nel documento
 
 Ricerca per ID
 ```
     document.getElementById("nome ID")
 ```
-
 
 Ricerca per selettore
 ```
@@ -60,8 +60,7 @@ Ricerca per nome del tag
     document.querySelectorAll("nome selettore")
 ```
 
-
-> Nota bene: 
+> Nota bene:
 > questi metodi restituiscono degli array
 
 ## setTimeout
@@ -74,4 +73,30 @@ esempio:
 
 ```
     setTimeout(console.log("10"), 5000)
+```
+
+## setInterval
+
+ripete la funzione ogni determinato periodo di tempo
+
+`setInterval(funzione, tempo [in millisecondi])`
+
+esempio:
+
+```
+    setInterval(function () {element.innerHTML += "Hello"}, 1000)
+```
+
+### clearInterval
+
+interrompe il setInterval
+
+`clearInterval(valore restituito da setInterval)`
+
+esempio:
+
+```
+    var repeat = setInterval(function () {element.innerHTML += "Hello"} 1000)
+
+    clearInterval(repeat)
 ```
