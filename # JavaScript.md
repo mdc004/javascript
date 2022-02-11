@@ -100,3 +100,37 @@ esempio:
 
     clearInterval(repeat)
 ```
+
+## Creare un elemento
+
+`nuovo_elemento = document.createElement("nome elemento")`
+
+`dove_inserire_il_nuovo_elemento.appendChild(nuovo_elemento)`
+
+esempio:
+
+```
+    tab = document.createElement("table")
+
+    grid.appendChild(tab)
+```
+
+## Aggiungere classi ad un elemento
+
+`elemento.classList.add("nome classe1, nome classe2, ...")`
+
+esempio:
+
+```
+    tab.classList.add("table")
+```
+
+## Togliere classi ad un elemento
+
+`elemento.classList.remove("nome classe")`
+
+esempio:
+
+```
+    tab.classList.remove("table")
+```
