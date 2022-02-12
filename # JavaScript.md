@@ -27,6 +27,13 @@ stampa in una tabella in console le celle di un array e il relativo contenuto:
     console.table(nome_array)
 ```
 
+## Stampa nel documento
+`document.write("Stringa")`
+esempio:
+```
+    document.write("Hello World!");
+```
+
 ## Ricerca nel documento
 
 Ricerca per ID
@@ -134,3 +141,18 @@ esempio:
 ```
     tab.classList.remove("table")
 ```
+
+## Inserire css al foglio di stile
+
+restituisce un array cotenente tutti i fogli di stile del documento
+
+`document.styleSheets[0].insertRule("selettore { proprietà: valore; }")`
+
+esempio:
+
+```
+    document.styleSheets[0].insertRule("p { color: dak-green; }")
+```
+
+>Nota bene:
+>Lo stile viene aggiunto all'inizio del foglio di stile, quindi bisogna verificare che non ci siano, successivamente, altre regole che lo vadano a riscrivere
