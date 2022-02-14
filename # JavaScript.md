@@ -61,7 +61,7 @@ Ricerca per nome del tag
     document.getElementsByTagName("nome tag")
 ```
 
-Ricerca per nome del tag
+Ricerca per selettore
 
 ```
     document.querySelectorAll("nome selettore")
@@ -122,6 +122,20 @@ esempio:
     grid.appendChild(tab)
 ```
 
+## Inserire un elemento in una precisa posizione
+
+`nuovo_elemento = document.createElement("nome elemento")`
+
+`dove_inserire_il_nuovo_elemento.insertBefore(nuovo_elemento, posizione)`
+
+esempio:
+
+```
+    tab = document.createElement("table")
+
+    grid.insertBefore(table, td1)
+```
+
 ## Aggiungere classi ad un elemento
 
 `elemento.classList.add("nome classe1, nome classe2, ...")`
@@ -156,3 +170,15 @@ esempio:
 
 >Nota bene:
 >Lo stile viene aggiunto all'inizio del foglio di stile, quindi bisogna verificare che non ci siano, successivamente, altre regole che lo vadano a riscrivere
+
+## GetAttribute
+
+restituisce un determinato attributo di uno specifico elemento
+
+`elemento.getAttribute("nome_attributo")`
+
+esempio:
+
+```
+    document.getElementsByTagName("img")[0].getAttribute("width")
+```
