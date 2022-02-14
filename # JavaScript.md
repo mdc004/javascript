@@ -1,6 +1,6 @@
 # JavaScript
 
-## If: sintassi veloce
+## Ternary Operator
 
 `condizione da verificare ? ramo del vero: ramo del falso`
 
