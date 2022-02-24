@@ -156,6 +156,18 @@ esempio:
     tab.classList.remove("table")
 ```
 
+## Controllare se un elemento contiene una classe
+
+restituisce un boolean: "true" se la contiene, "false" altrimenti
+
+`elemento.classList.contains("nome classe")`
+
+esempio:
+
+```
+    if(tab.classList.contains("table"))console.log("yes!!")
+```
+
 ## Inserire css al foglio di stile
 
 restituisce un array cotenente tutti i fogli di stile del documento
