@@ -182,3 +182,16 @@ esempio:
 ```
     document.getElementsByTagName("img")[0].getAttribute("width")
 ```
+
+## SetAttribute
+
+setta un determinato attributo di uno specifico elemento
+
+`elemento.setAttribute("nome_attributo","valore_attributo")`
+
+esempio:
+
+```
+    document.getElementsByTagName("img")[0].setAttribute("width","100px")
+```
+
