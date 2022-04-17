@@ -207,3 +207,8 @@ esempio:
     document.getElementsByTagName("img")[0].setAttribute("width","100px")
 ```
 
+## Reload della pagina (refresh [F5])
+
+ricarica la pagina, è come premere F5
+
+`windows.location.reload()`
