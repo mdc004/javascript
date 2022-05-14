@@ -6,43 +6,43 @@
 
 esempio:
 
-```
+```javascript
     count > 1 ? count-- : count++ 
 ```
 
 ## Metodi con la console
 
 stampa in console:
-```
+```javascript
     console.log()
 ```
 
 stampa le proprietà di un oggetto in console:
-```
+```javascript
     console.dir()
 ```
 
 stampa in una tabella in console le celle di un array e il relativo contenuto:
-```
+```javascript
     console.table(nome_array)
 ```
 
 ## Stampa nel documento
 `document.write("Stringa")`
 esempio:
-```
+```javascript
     document.write("Hello World!");
 ```
 
 ## Ricerca nel documento
 
 Ricerca per ID
-```
+```javascript
     document.getElementById("nome ID")
 ```
 
 Ricerca per selettore
-```
+```javascript
     document.querySelector("nome selettore")
 ```
 
@@ -51,19 +51,19 @@ Ricerca per selettore
 
 Ricerca per classe
 
-```
+```javascript
     document.getElementsByClassName("nome classe")
 ```
 
 Ricerca per nome del tag
 
-```
+```javascript
     document.getElementsByTagName("nome tag")
 ```
 
 Ricerca per selettore
 
-```
+```javascript
     document.querySelectorAll("nome selettore")
 ```
 
@@ -78,7 +78,7 @@ esegue la funzione dopo un determinato periodo di tempo
 
 esempio:
 
-```
+```javascript
     setTimeout(console.log("10"), 5000)
 ```
 
@@ -90,7 +90,7 @@ ripete la funzione ogni determinato periodo di tempo
 
 esempio:
 
-```
+```javascript
     setInterval(function () {element.innerHTML += "Hello"}, 1000)
 ```
 
@@ -102,7 +102,7 @@ interrompe il setInterval
 
 esempio:
 
-```
+```javascript
     var repeat = setInterval(function () {element.innerHTML += "Hello"} 1000)
 
     clearInterval(repeat)
@@ -116,7 +116,7 @@ esempio:
 
 esempio:
 
-```
+```javascript
     tab = document.createElement("table")
 
     grid.appendChild(tab)
@@ -130,7 +130,7 @@ esempio:
 
 esempio:
 
-```
+```javascript
     tab = document.createElement("table")
 
     grid.insertBefore(table, td1)
@@ -142,7 +142,7 @@ esempio:
 
 esempio:
 
-```
+```javascript
     tab.classList.add("table")
 ```
 
@@ -152,7 +152,7 @@ esempio:
 
 esempio:
 
-```
+```javascript
     tab.classList.remove("table")
 ```
 
@@ -164,7 +164,7 @@ restituisce un boolean: "true" se la contiene, "false" altrimenti
 
 esempio:
 
-```
+```javascript
     if(tab.classList.contains("table"))console.log("yes!!")
 ```
 
@@ -176,7 +176,7 @@ restituisce un array cotenente tutti i fogli di stile del documento
 
 esempio:
 
-```
+```javascript
     document.styleSheets[0].insertRule("p { color: dak-green; }")
 ```
 
@@ -191,7 +191,7 @@ restituisce un determinato attributo di uno specifico elemento
 
 esempio:
 
-```
+```javascript
     document.getElementsByTagName("img")[0].getAttribute("width")
 ```
 
@@ -203,7 +203,7 @@ setta un determinato attributo di uno specifico elemento
 
 esempio:
 
-```
+```javascript
     document.getElementsByTagName("img")[0].setAttribute("width","100px")
 ```
 
